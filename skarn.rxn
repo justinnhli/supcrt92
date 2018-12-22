@@ -1,0 +1,27 @@
+ Line 1:  nreac, iwet            (free format)
+ Line 2:  [blank]                (free format)
+ Line 3:  descriptive title      (a80)
+ Line 4:  nm, na, ng, nw         (free format)
+ nm Lines:  coeff  mname  mform  (1x,f9.3,2x,a20,2x,a30)
+ ng Lines:  coeff  aname  aform  (1x,f9.3,2x,a20,2x,a30)
+ na Lines:  coeff  gname  gform  (1x,f9.3,2x,a20,2x,a30)
+ [1 Line:   coeff  H2O    H2O]   (1x,f9.3,2x,a20,2x,a30)
+
+*** each of the nreac reaction blocks
+*** contains 3+nm+ng+na+nw lines
+
+*******************************************************
+
+  1  1
+
+ skarn reaction                                                                  
+   4   3   1   1
+    -1.000  ANDRADITE             Ca3Fe2Si3O12                  
+     3.000  QUARTZ                SiO2                          
+     3.000  CALCITE               CaCO3                         
+     2.000  CHALCOPYRITE          CuFeS2                        
+    -4.000  H2S,aq                H2S(0)                        
+    -2.000  Cu+                   Cu(+)                         
+     2.000  H+                    H(+)                          
+    -3.000  CO2,g                 CARBON-DIOXIDE                
+     3.000  H2O                   H2O                           

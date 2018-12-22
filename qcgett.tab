@@ -1,0 +1,106 @@
+
+ ***** SUPCRT92: input/output specifications for this run
+
+            USER-SPECIFIED  CON FILE  containing 
+            T-P-D grid & option switches: qcgett.con          
+
+            USER-SPECIFIED  RXN FILE  containing 
+            chemical reactions: qc.rxn              
+
+            THERMODYNAMIC DATABASE: dprons92.dat        
+
+            SUPCRT-GENERATED  TAB FILE  containing 
+            tabulated reaction properties (this file): qcgett.tab          
+
+            SUPCRT-GENERATED  PLT FILES  containing 
+            reaction properties for x-y plots: qcgett.uxy           etc.
+
+ ***** summary of option switches 
+
+            isat, iopt, iplot, univar, noninc:   0  2  1  1  0
+
+ ***** summary of state conditions 
+
+            ISOBARS(bars)  :  min, max, increment:  25000.0000  35000.0000   2500.0000
+            TEMP(degC) range: min, max, increment:    350.0000   1400.0000      0.0000
+
+
+************************************ REACTION  1  ************************************
+
+ REACTION TITLE: 
+
+      quartz--coesite equilibrium                                                     
+
+
+ REACTION STOICHIOMETRY: 
+
+         COEFF.   NAME                   FORMULA
+        -------   --------------------   --------------------
+         -1.000   COESITE                SiO2                          
+          1.000   QUARTZ                 SiO2                          
+
+
+ STANDARD STATE PROPERTIES OF THE SPECIES AT 25 DEG C AND 1 BAR
+
+
+                                           ...... MINERALS ...... 
+
+
+                           DELTA G        DELTA H           S              V              Cp     
+       NAME               (cal/mol)      (cal/mol)     (cal/mol/K)     (cc/mol)      (cal/mol/K) 
+  --------------------  -------------  -------------  -------------  -------------  -------------
+  COESITE                  -203541.       -216614.          9.650         20.641          10.4
+  QUARTZ                   -204646.       -217650.          9.880         22.688          10.6
+
+
+                             MAIER-KELLY COEFFICIENTS                                PHASE TRANSITION DATA
+       NAME              a(10**0)    b(10**3)    c(10**-5)  T limit (C)  Htr (cal/mol)   Vtr (cc/mol)   dPdTtr (bar/K)
+  --------------------  ----------  ----------  ----------  -----------  -------------  --------------  --------------
+  COESITE                 11.000       8.200      -2.700      574.85
+    post-transition 1     14.190       1.940       0.000     1726.85
+  QUARTZ                  11.220       8.200      -2.700      574.85          290.           0.372          38.500
+    post-transition 1     14.410       1.940       0.000     1726.85
+
+
+
+ STANDARD STATE PROPERTIES OF THE REACTION AT 25 DEG C AND 1 BAR
+
+
+                                                   DELTA G     DELTA H     DELTA S     DELTA V    DELTA Cp 
+  PRES(bars)  TEMP(degC)  DH2O(g/cc)    LOG K       (cal)       (cal)      (cal/K)       (cc)      (cal/K)  
+  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+      1.000      25.000       0.000       0.810      -1105.      -1036.        0.2         2.0         0.2
+
+
+
+ STANDARD STATE PROPERTIES OF THE REACTION AT ELEVATED TEMPERATURES AND PRESSURES 
+
+
+                                                   DELTA G     DELTA H     DELTA S     DELTA V    DELTA Cp 
+  PRES(bars)  TEMP(degC)  DH2O(g/cc)    LOG K       (cal)       (cal)      (cal/K)       (cc)      (cal/K)  
+  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+
+  25000.000     384.651       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+  25000.000     384.651       0.000       0.000          0.        266.        0.4         2.0         0.2
+
+
+  27500.000     659.673       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+  27500.000     659.673       0.000       0.000          0.        449.        0.5         2.0         0.2
+
+
+  30000.000     900.841       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+  30000.000     900.841       0.000       0.000          0.        624.        0.5         2.0         0.2
+
+
+  32500.000    1122.781       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+  32500.000    1122.781       0.000       0.000          0.        796.        0.6         2.0         0.2
+
+
+  35000.000    1331.746       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+  35000.000    1331.746       0.000       0.000          0.        964.        0.6         2.0         0.2
+

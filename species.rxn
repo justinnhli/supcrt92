@@ -1,0 +1,52 @@
+ Line 1:  nreac, iwet            (free format)
+ Line 2:  [blank]                (free format)
+ Line 3:  descriptive title      (a80)
+ Line 4:  nm, na, ng, nw         (free format)
+ nm Lines:  coeff  mname  mform  (1x,f9.3,2x,a20,2x,a30)
+ ng Lines:  coeff  aname  aform  (1x,f9.3,2x,a20,2x,a30)
+ na Lines:  coeff  gname  gform  (1x,f9.3,2x,a20,2x,a30)
+ [1 Line:   coeff  H2O    H2O]   (1x,f9.3,2x,a20,2x,a30)
+
+*** each of the nreac reaction blocks
+*** contains 3+nm+ng+na+nw lines
+
+*******************************************************
+
+  9  1
+
+ andradite                                                                       
+   1   0   0   0
+     1.000  ANDRADITE             Ca3Fe2Si3O12                  
+
+ quartz                                                                          
+   1   0   0   0
+     1.000  QUARTZ                SiO2                          
+
+ calcite                                                                         
+   1   0   0   0
+     1.000  CALCITE               CaCO3                         
+
+ chalcopyrite                                                                    
+   1   0   0   0
+     1.000  CHALCOPYRITE          CuFeS2                        
+
+ H2S,aq                                                                          
+   0   1   0   0
+     1.000  H2S,aq                H2S(0)                        
+
+ Cu+                                                                             
+   0   1   0   0
+     1.000  Cu+                   Cu(+)                         
+
+ H+                                                                              
+   0   1   0   0
+     1.000  H+                    H(+)                          
+
+ CO2,g                                                                           
+   0   0   1   0
+     1.000  CO2,g                 CARBON-DIOXIDE                
+
+ H2O                                                                             
+   0   0   0   1
+     1.000  H2O                   H2O                           
+

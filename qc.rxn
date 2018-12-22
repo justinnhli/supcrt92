@@ -1,0 +1,20 @@
+ Line 1:  nreac, iwet            (free format)
+ Line 2:  [blank]                (free format)
+ Line 3:  descriptive title      (a80)
+ Line 4:  nm, na, ng, nw         (free format)
+ nm Lines:  coeff  mname  mform  (1x,f9.3,2x,a20,2x,a30)
+ ng Lines:  coeff  aname  aform  (1x,f9.3,2x,a20,2x,a30)
+ na Lines:  coeff  gname  gform  (1x,f9.3,2x,a20,2x,a30)
+ [1 Line:   coeff  H2O    H2O]   (1x,f9.3,2x,a20,2x,a30)
+
+*** each of the nreac reaction blocks
+*** contains 3+nm+ng+na+nw lines
+
+*******************************************************
+
+  1  0
+
+ quartz--coesite equilibrium                                                     
+   2   0   0   0
+    -1.000  COESITE               SiO2                          
+     1.000  QUARTZ                SiO2                          

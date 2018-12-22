@@ -1,0 +1,135 @@
+
+ ***** SUPCRT92: input/output specifications for this run
+
+            USER-SPECIFIED  CON FILE  containing 
+            T-P-D grid & option switches: qcgetp.con          
+
+            USER-SPECIFIED  RXN FILE  containing 
+            chemical reactions: qc.rxn              
+
+            THERMODYNAMIC DATABASE: dprons92.dat        
+
+            SUPCRT-GENERATED  TAB FILE  containing 
+            tabulated reaction properties (this file): qcgetp.tab          
+
+            SUPCRT-GENERATED  PLT FILES  containing 
+            reaction properties for x-y plots: qcgetp.uxy           etc.
+
+ ***** summary of option switches 
+
+            isat, iopt, iplot, univar, noninc:   0  2  2  1  0
+
+ ***** summary of state conditions 
+
+            ISOTHERMS(degC):  min, max, increment:    400.0000   1400.0000    200.0000
+            PRES(bars) range: min, max, increment:  25000.0000  40000.0000      0.0000
+
+
+************************************ REACTION  1  ************************************
+
+ REACTION TITLE: 
+
+      quartz--coesite equilibrium                                                     
+
+
+ REACTION STOICHIOMETRY: 
+
+         COEFF.   NAME                   FORMULA
+        -------   --------------------   --------------------
+         -1.000   COESITE                SiO2                          
+          1.000   QUARTZ                 SiO2                          
+
+
+ STANDARD STATE PROPERTIES OF THE SPECIES AT 25 DEG C AND 1 BAR
+
+
+                                           ...... MINERALS ...... 
+
+
+                           DELTA G        DELTA H           S              V              Cp     
+       NAME               (cal/mol)      (cal/mol)     (cal/mol/K)     (cc/mol)      (cal/mol/K) 
+  --------------------  -------------  -------------  -------------  -------------  -------------
+  COESITE                  -203541.       -216614.          9.650         20.641          10.4
+  QUARTZ                   -204646.       -217650.          9.880         22.688          10.6
+
+
+                             MAIER-KELLY COEFFICIENTS                                PHASE TRANSITION DATA
+       NAME              a(10**0)    b(10**3)    c(10**-5)  T limit (C)  Htr (cal/mol)   Vtr (cc/mol)   dPdTtr (bar/K)
+  --------------------  ----------  ----------  ----------  -----------  -------------  --------------  --------------
+  COESITE                 11.000       8.200      -2.700      574.85
+    post-transition 1     14.190       1.940       0.000     1726.85
+  QUARTZ                  11.220       8.200      -2.700      574.85          290.           0.372          38.500
+    post-transition 1     14.410       1.940       0.000     1726.85
+
+
+
+ STANDARD STATE PROPERTIES OF THE REACTION AT 25 DEG C AND 1 BAR
+
+
+                                                   DELTA G     DELTA H     DELTA S     DELTA V    DELTA Cp 
+  TEMP(degC)  PRES(bars)  DH2O(g/cc)    LOG K       (cal)       (cal)      (cal/K)       (cc)      (cal/K)  
+  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+     25.000       1.000       0.000       0.810      -1105.      -1036.        0.2         2.0         0.2
+
+
+
+ STANDARD STATE PROPERTIES OF THE REACTION AT ELEVATED TEMPERATURES AND PRESSURES 
+
+
+                                                   DELTA G     DELTA H     DELTA S     DELTA V    DELTA Cp 
+  TEMP(degC)  PRES(bars)  DH2O(g/cc)    LOG K       (cal)       (cal)      (cal/K)       (cc)      (cal/K)  
+  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+
+    400.000   25757.103       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+    400.000   25757.103       0.000      -0.010         31.        307.        0.4         2.0         0.2
+
+    400.000   25127.620       0.000       0.000          0.        276.        0.4         2.0         0.2
+
+    400.000                               0.010     LOG K NOT FOUND:  25000.000 <= P <=  40000.000
+
+
+    600.000   27738.847       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+    600.000   27738.847       0.000      -0.010         40.        448.        0.5         2.0         0.2
+
+    600.000   26922.179       0.000       0.000          0.        408.        0.5         2.0         0.2
+
+    600.000   26105.656       0.000       0.010        -40.        368.        0.5         2.0         0.2
+
+
+    800.000   29928.309       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+    800.000   29928.309       0.000      -0.010         49.        599.        0.5         2.0         0.2
+
+    800.000   28924.691       0.000       0.000          0.        550.        0.5         2.0         0.2
+
+    800.000   27920.984       0.000       0.010        -49.        501.        0.5         2.0         0.2
+
+
+   1000.000   32286.404       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+   1000.000   32286.404       0.000      -0.010         58.        758.        0.5         2.0         0.2
+
+   1000.000   31095.602       0.000       0.000          0.        700.        0.5         2.0         0.2
+
+   1000.000   29904.945       0.000       0.010        -58.        642.        0.5         2.0         0.2
+
+
+   1200.000   34786.146       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+   1200.000   34786.146       0.000      -0.010         67.        924.        0.6         2.0         0.2
+
+   1200.000   33408.628       0.000       0.000          0.        857.        0.6         2.0         0.2
+
+   1200.000   32030.876       0.000       0.010        -67.        790.        0.6         2.0         0.2
+
+
+   1400.000   37408.694       0.000    *** CAUTION: BEYOND P LIMIT OF APPROXIMATIONS IN MINERAL/GAS EQNS ***
+
+   1400.000   37408.694       0.000      -0.010         77.       1097.        0.6         2.0         0.2
+
+   1400.000   35843.992       0.000       0.000          0.       1020.        0.6         2.0         0.2
+
+   1400.000   34279.145       0.000       0.010        -77.        944.        0.6         2.0         0.2
+

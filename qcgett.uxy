@@ -1,0 +1,36 @@
+
+ ***** SUPCRT92: input/output specifications for this run
+
+            USER-SPECIFIED  CON FILE  containing 
+            T-P-D grid & option switches: qcgett.con          
+
+            USER-SPECIFIED  RXN FILE  containing 
+            chemical reactions: qc.rxn              
+
+            THERMODYNAMIC DATABASE: dprons92.dat        
+
+            SUPCRT-GENERATED  TAB FILE  containing 
+            tabulated reaction properties: qcgett.tab          
+
+ ***** summary of option switches 
+
+            isat, iopt, iplot, univar, noninc:   0  2  1  1  0
+
+ ***** summary of state conditions 
+
+            ISOBARS(bars)  :  min, max, increment:  25000.0000  35000.0000   2500.0000
+            TEMP(degC) range: min, max, increment:    350.0000   1400.0000      0.0000
+
+**************************************************************************************
+
+
+ REACTION  1
+ TITLE: quartz--coesite equilibrium                                                     
+
+ LOG K =  0.00000E+00 ; PRES(bars), TEMP(degC) = 
+
+  0.2500000E+05  0.3846509E+03
+  0.2750000E+05  0.6596733E+03
+  0.3000000E+05  0.9008411E+03
+  0.3250000E+05  0.1122781E+04
+  0.3500000E+05  0.1331746E+04

@@ -1,0 +1,45 @@
+
+ ***** SUPCRT92: input/output specifications for this run
+
+            USER-SPECIFIED  CON FILE  containing 
+            T-P-D grid & option switches: file not saved      
+
+            USER-SPECIFIED  RXN FILE  containing 
+            chemical reactions: skarn.rxn           
+
+            THERMODYNAMIC DATABASE: dprons92.dat        
+
+            SUPCRT-GENERATED  TAB FILE  containing 
+            tabulated reaction properties: skdef2.tab          
+
+ ***** summary of option switches 
+
+            isat, iopt, iplot, univar, noninc:   1  1  3  0  0
+
+ ***** summary of state conditions 
+
+            saturation TEMP(degC) range: min, max, increment:      0.0000    350.0000     25.0000
+
+**************************************************************************************
+
+
+ REACTION  1
+ TITLE: skarn reaction                                                                  
+
+ TEMP(degC), delV (cc)    
+
+  0.1000000E-01  0.7178090E+02
+  0.2500000E+02  0.6328124E+02
+  0.5000000E+02  0.5981154E+02
+  0.7500000E+02  0.5838279E+02
+  0.1000000E+03  0.5808214E+02
+  0.1250000E+03  0.5855705E+02
+  0.1500000E+03  0.5965842E+02
+  0.1750000E+03  0.6130117E+02
+  0.2000000E+03  0.6342562E+02
+  0.2250000E+03  0.6608056E+02
+  0.2500000E+03  0.6935659E+02
+  0.2750000E+03  0.7265998E+02
+  0.3000000E+03  0.7163201E+02
+  0.3250000E+03  0.4282356E+02
+  0.3500000E+03 -0.2065216E+03

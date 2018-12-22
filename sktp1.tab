@@ -1,0 +1,190 @@
+
+ ***** SUPCRT92: input/output specifications for this run
+
+            USER-SPECIFIED  CON FILE  containing 
+            T-P-D grid & option switches: sktp1.con           
+
+            USER-SPECIFIED  RXN FILE  containing 
+            chemical reactions: skarn.rxn           
+
+            THERMODYNAMIC DATABASE: dprons92.dat        
+
+            SUPCRT-GENERATED  TAB FILE  containing 
+            tabulated reaction properties (this file): sktp1.tab           
+
+            SUPCRT-GENERATED  PLT FILES  containing 
+            reaction properties for x-y plots: sktp1.kxy            etc.
+
+ ***** summary of option switches 
+
+            isat, iopt, iplot, univar, noninc:   0  2  1  0  0
+
+ ***** summary of state conditions 
+
+            ISOBARS(bars)  :  min, max, increment:    500.0000   5000.0000   4500.0000
+            TEMP(degC) range: min, max, increment:      0.0000   1000.0000    100.0000
+
+
+************************************ REACTION  1  ************************************
+
+ REACTION TITLE: 
+
+      skarn reaction                                                                  
+
+
+ REACTION STOICHIOMETRY: 
+
+         COEFF.   NAME                   FORMULA
+        -------   --------------------   --------------------
+         -1.000   ANDRADITE              Ca3Fe2Si3O12                  
+         -3.000   CARBON-DIOXIDE         CO2,g               
+         -4.000   H2S,aq                 H2S(0)                        
+         -2.000   Cu+                    Cu(+)                         
+          3.000   QUARTZ                 SiO2                          
+          3.000   CALCITE                CaCO3                         
+          2.000   CHALCOPYRITE           CuFeS2                        
+          2.000   H+                     H(+)                          
+          3.000   H2O                    H2O
+
+
+ STANDARD STATE PROPERTIES OF THE SPECIES AT 25 DEG C AND 1 BAR
+
+
+                                           ...... MINERALS ...... 
+
+
+                           DELTA G        DELTA H           S              V              Cp     
+       NAME               (cal/mol)      (cal/mol)     (cal/mol/K)     (cc/mol)      (cal/mol/K) 
+  --------------------  -------------  -------------  -------------  -------------  -------------
+  ANDRADITE               -1296819.      -1380345.         70.130        131.850          83.4
+  QUARTZ                   -204646.       -217650.          9.880         22.688          10.6
+  CALCITE                  -269880.       -288552.         22.150         36.934          19.6
+  CHALCOPYRITE              -44900.        -44453.         31.150         42.830          23.1
+
+
+                             MAIER-KELLY COEFFICIENTS                                PHASE TRANSITION DATA
+       NAME              a(10**0)    b(10**3)    c(10**-5)  T limit (C)  Htr (cal/mol)   Vtr (cc/mol)   dPdTtr (bar/K)
+  --------------------  ----------  ----------  ----------  -----------  -------------  --------------  --------------
+  ANDRADITE              113.532      15.636     -30.889      826.85
+  QUARTZ                  11.220       8.200      -2.700      574.85          290.           0.372          38.500
+    post-transition 1     14.410       1.940       0.000     1726.85
+  CALCITE                 24.980       5.240      -6.200      926.85
+  CHALCOPYRITE            20.790      12.800      -1.340      556.85         2405.
+    post-transition 1   -141.400     210.000       0.000      656.85            0.
+    post-transition 2     41.220       0.000       0.000      926.85
+
+
+
+                                           ...... GASES ...... 
+
+
+                           DELTA G        DELTA H           S              V              Cp     
+       NAME               (cal/mol)      (cal/mol)     (cal/mol/K)      (cc/mol)     (cal/mol/K) 
+  --------------------  -------------  -------------  -------------  -------------  -------------
+  CO2,g                     -94254.        -94051.         51.085          0.              8.9
+
+
+                             MAIER-KELLY COEFFICIENTS
+       NAME              a(10**0)    b(10**3)    c(10**-5)  T limit (C)
+  --------------------  ----------  ----------  ----------  ----------
+  CO2,g                   10.570       2.100      -2.060     2226.85
+
+
+
+                                     ...... AQUEOUS SPECIES ...... 
+
+
+                           DELTA G        DELTA H           S              V              Cp     
+       NAME               (cal/mol)      (cal/mol)     (cal/mol/K)      (cc/mol)     (cal/mol/K) 
+  --------------------  -------------  -------------  -------------  -------------  -------------
+  H2S,aq                     -6673.         -9001.         30.000          35.0           42.8
+  Cu+                        11950.         17132.          9.700          -8.1           13.7
+  H+                             0.             0.          0.000           0.0            0.0
+  H2O                       -56688.        -68317.         16.712          18.1           18.0
+
+
+                                                  EQUATION-OF-STATE COEFFICIENTS
+       NAME              a1(10**1)     a2(10**-2)    a3(10**0)     a4(10**-4)    c1(10**0)     c2(10**-4)   omega(10**-5)
+  --------------------  ------------  ------------  ------------  ------------  ------------  ------------  -------------
+  H2S,aq                    6.5097        6.7724        5.9646       -3.0590       32.3000        4.7300       -0.1000
+  Cu+                       0.7835       -5.8682        8.0565       -2.5364       17.2831       -0.2439        0.3351
+  H+                        0.0000        0.0000        0.0000        0.0000        0.0000        0.0000        0.0000
+
+
+
+ STANDARD STATE PROPERTIES OF THE REACTION AT 25 DEG C AND 1 BAR
+
+
+                                                   DELTA G     DELTA H     DELTA S     DELTA V    DELTA Cp 
+  PRES(bars)  TEMP(degC)  DH2O(g/cc)    LOG K       (cal)       (cal)      (cal/K)       (cc)      (cal/K)  
+  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+      1.000      25.000       0.997      74.084    -101068.    -148224.     -154.3        63.3      -118.0
+
+
+
+ STANDARD STATE PROPERTIES OF THE REACTION AT ELEVATED TEMPERATURES AND PRESSURES 
+
+
+                                                   DELTA G     DELTA H     DELTA S     DELTA V    DELTA Cp 
+  PRES(bars)  TEMP(degC)  DH2O(g/cc)    LOG K       (cal)       (cal)      (cal/K)       (cc)      (cal/K)  
+  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+
+    500.000       0.000       1.024      83.189    -103974.    -142570.     -137.0        64.4      -234.9
+
+    500.000     100.000       0.980      51.487     -87909.    -154949.     -176.5        57.4       -91.8
+
+    500.000     200.000       0.897      31.958     -69188.    -163355.     -196.6        62.5       -78.3
+
+    500.000     300.000       0.777      18.597     -48772.    -171046.     -211.3        75.5       -79.3
+
+    500.000     400.000       0.578       8.563     -26374.   *** DELTA G ONLY (CHARGED AQUEOUS SPECIES) ***
+
+    500.000     500.000       0.257    *** BEYOND RANGE OF APPLICABILITY OF AQUEOUS SPECIES EQNS ***
+
+    500.000     587.811       0.170             PHASE TRANSITION #1 for QUARTZ              
+
+    500.000     556.850       0.190             PHASE TRANSITION #1 for CHALCOPYRITE        
+
+    500.000     600.000       0.164    *** BEYOND RANGE OF APPLICABILITY OF AQUEOUS SPECIES EQNS ***
+
+    500.000     656.850       0.142             PHASE TRANSITION #2 for CHALCOPYRITE        
+
+    500.000     700.000       0.130    *** BEYOND RANGE OF APPLICABILITY OF AQUEOUS SPECIES EQNS ***
+
+    500.000     800.000       0.110    *** BEYOND RANGE OF APPLICABILITY OF AQUEOUS SPECIES EQNS ***
+
+    500.000     900.000       0.097    *** BEYOND RANGE OF APPLICABILITY OF AQUEOUS SPECIES EQNS ***
+
+    500.000    1000.000       0.087    *** BEYOND RANGE OF APPLICABILITY OF AQUEOUS SPECIES EQNS ***
+
+
+   5000.000       0.000                *** BEYOND RANGE OF APPLICABILITY OF H2O EQUATION OF STATE **
+
+   5000.000     100.000       1.111      48.039     -82023.    -150975.     -181.7        52.4       -92.0
+
+   5000.000     200.000       1.056      28.983     -62748.    -159861.     -202.8        57.7       -86.4
+
+   5000.000     300.000       0.999      15.873     -41628.    -168290.     -219.0        62.5       -82.1
+
+   5000.000     400.000       0.938       6.190     -19067.    -176266.     -231.8        67.8       -77.5
+
+   5000.000     500.000       0.876      -1.315       4651.    -183777.     -242.2        73.6       -72.5
+
+   5000.000     556.850       0.841             PHASE TRANSITION #1 for CHALCOPYRITE        
+
+   5000.000     600.000       0.815      -7.278      29076.    -186320.     -245.4        79.8       -51.4
+
+   5000.000     656.850       0.781             PHASE TRANSITION #2 for CHALCOPYRITE        
+
+   5000.000     700.000       0.756     -12.089      53829.    -190406.     -249.8        86.5    TRANSITION
+
+   5000.000     704.694       0.753             PHASE TRANSITION #1 for QUARTZ              
+
+   5000.000     800.000       0.702     -16.033      78727.    -193557.     -252.6        94.7       -50.4
+
+   5000.000     900.000       0.653    *** CAUTION: BEYOND T LIMIT OF CP COEFFS FOR A MINERAL OR GAS ***
+
+   5000.000     900.000       0.653     -19.415     104220.    -198657.     -257.2       101.9       -51.9
+
+   5000.000    1000.000       0.609     -22.342     130157.    -203967.     -261.5       108.4       -54.3
+
